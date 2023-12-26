@@ -1,13 +1,14 @@
-# CPTS321
+# CPTS321 - WASHINGTON STATE UNIVERISTY 
 ## C# - Software Engineering Principles
+
 
 ### Week 1 
 - Class overview. Introduction to C#. basic language features.
 - Independentreview of time complexity and Git/GitLab.
 
-***w1.1 - Class Overview***
+***[w1.1 - Class Overview](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w1.1.%20Class%20overview.pdf)***
 
-***w1.2 - IntroToCSharp***
+***[w1.2 - IntroToCSharp](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w1.2.%20IntroToCSharp.pdf)***
 
 ***w1.3 - From C++ to C#***
 
@@ -20,9 +21,9 @@
 - Introduction to NUnit and Test Driven Development (TDD)
 - Naming and commenting practices. 
 
-***w3.2 Testing***
+***[w3.2 Testing](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w3.2.%20Testing.pdf)***
 
-***w3.3 Naming and Commenting***
+***[w3.3 Naming and Commenting](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w3.3.Naming%20and%20commenting.pdf)***
 
 ***
 ### Week 4
