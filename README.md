@@ -1,7 +1,9 @@
 # CPTS321
 ## C# - Software Engineering Principles
 
-### Week 1 
+### 1. Week 1 
+- Class overview. Introduction to C#. basic language features.
+- Independentreview of time complexity and Git/GitLab
 
 ***w1.1 - Class Overview***
 
@@ -11,6 +13,7 @@
 
 
 ### Week 2
+***
 ### Week 3
 ### Week 4
 ### Week 5
