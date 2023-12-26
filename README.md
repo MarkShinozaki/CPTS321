@@ -1,2 +1,29 @@
 # CPTS321
-C# - Software Engineering Principles
+## C# - Software Engineering Principles
+
+### Week 1 
+
+***w1.1 - Class Overview***
+
+***w1.2 - IntroToCSharp***
+
+***w1.3 - From C++ to C#***
+
+
+### Week 2
+### Week 3
+### Week 4
+### Week 5
+### Week 6 
+### Week 7
+
+
+
+
+
+
+
+
+
+
+
