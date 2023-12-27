@@ -169,15 +169,20 @@
 
 ***[Cpts321 - Design Patterns](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w15.1-DP-Presentation-solutions.pdf)***
 
+***[w15.3-AntiPatterns](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w15.3-AntiPatterns.pdf)***
+
 
 ***
 ### Week 16
-- Disposal and Garbage Collection, Mocking, Debugging. 
+- Disposal and Garbage Collection, Mocking, Debugging.
 
+**Link to Slides:**
+  
+***[w16.1-GC-cpts321-garbagecollection](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w16.1-GC-cpts321-garbagecollection-main.zip)***
 
+***[w16.1-GC](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w16.1-GC.pdf)***
 
-
-
+***[w16.3-Debugging-Presentation](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w16.3-Debugging-Presentation.pdf)***
 
 
 
