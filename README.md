@@ -207,5 +207,6 @@ Students are responsible for reading and understanding all university-wide polic
 
 ***
 
-### Course Schedule 
+# Course Schedule 
+
 ![Flexable layout of course.](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/CourseInformation/Course%20Schedule%20-%20Picture.jpeg)
