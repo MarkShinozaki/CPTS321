@@ -13,10 +13,12 @@
 
 ## Git-GitLab
 - ***[GIT/GitLab](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/Git-GitLab-Review.pdf)***
-  
-## Time Complexity 
-## StyleCop
 
+## Time Complexity 
+- ***[brief Time COmplexity Review](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/w1.3.2%20Brief%20time%20complexity%20review.pdf)***
+
+## StyleCop
+- ***[StyleCop Guide](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/CptS%20321-StyleCop-How-to.pdf)***
 
 
 
