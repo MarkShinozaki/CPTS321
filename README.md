@@ -15,6 +15,8 @@ Email: venera.arnaoudova@wsu.edu
 EECS GitLab: varnaoud
 Office: EME 127
 
+> [!TIP]
+> - For Easier Syllabus Navigation click the menu at the top right to see each section.
 ***
 
 ## Recommended textbook:
