@@ -12,7 +12,7 @@
 * ***[Installing & Using: ](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/CptS%20321-NUnit-How-to%20setup%20on%20VS%202019.pdf)***
 
 ## Git-GitLab
-- ***[GIT/GITLA](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/Git-GitLab-Review.pdf)***
+- ***[GIT/GitLab](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/Git-GitLab-Review.pdf)***
   
 ## Time Complexity 
 ## StyleCop
