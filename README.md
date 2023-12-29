@@ -1,15 +1,14 @@
 # CPTS321 - WASHINGTON STATE UNIVERISTY 
 ## C# - Software Engineering Principles
 ***
-Course Syllabus 
+### Course Syllabus 
 
 Spring 2023 schedule: MWF 12:10pm - 1:00pm
 
 Everett: EVRT 458 (Streamed from Pullman)
 
 Instructor: ***[Dr. Venera Arnaoudova](https://www.veneraarnaoudova.com/)***
-Office hours (in-person and virtual):
-Date and time: MWF 1:00pm - 2:00pm
+
 Physical location: EME 127
 
 Email: venera.arnaoudova@wsu.edu
