@@ -160,6 +160,7 @@
 
 ***[UML - Class Diagrams, Sequence/Communication Diagrams](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w14.3-UML%20Presentation.pdf)***
 
+***[SOLID Principles Presentation(myGroup)]()***
 
 ***
 ### Week 15
