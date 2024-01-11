@@ -152,7 +152,7 @@
 
 **Link to Slides:**
 
-***[w14.1-Code Review Presentation - Solutions](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w14.1-Code%20Review%20Presentation%20-%20Solutions.pdf)***
+***[w14.1-Code Review Presentation - Solutions](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w14.1-Code%20Review%20Presentation.pdf)***
 
 ***[w14.3 Refactoring](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w14.3%20Refactoring.pdf)***
 
