@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Users>
+  <User>
+    <!--  NEVER REMOVE -->
+    <Username>Mark</Username>
+    <PasswordHash>$2a$11$uL0k0jMj6aDMN.ZXP.o8VOd9YwpgfUTKl6roGUr0PfdW3K7SRmp6q</PasswordHash>
+    <Role>admin</Role>
+    <EmployeeNumber>1</EmployeeNumber>
+    <!--  NEVER REMOVE -->
+  </User>
+  
+</Users>

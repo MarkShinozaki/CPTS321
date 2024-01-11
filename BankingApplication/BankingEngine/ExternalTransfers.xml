@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExternalTransfers>
+  <Transfer>
+    <From>
+      <Username>JohnDoe</Username>
+      <ClientNumber>JD-001</ClientNumber>
+    </From>
+    <To>
+      <Username>JaneSmith</Username>
+      <ClientNumber>JS-002</ClientNumber>
+    </To>
+    <AccountNumber>ACC-1234-5678</AccountNumber>
+    <Amount>250.00</Amount>
+    <Date>2023-12-15T12:34:56Z</Date>
+    <Status>Open</Status>
+  </Transfer>
+  <Transfer>
+    <From>
+      <Username>AliceJones</Username>
+      <ClientNumber>AJ-003</ClientNumber>
+    </From>
+    <To>
+      <Username>BobBrown</Username>
+      <ClientNumber>BB-004</ClientNumber>
+    </To>
+    <AccountNumber>ACC-8765-4321</AccountNumber>
+    <Amount>100.00</Amount>
+    <Date>2023-12-14T11:22:33Z</Date>
+    <Status>Closed</Status>
+  </Transfer>
+  <Transfer>
+    <From>
+      <Username>CharlieBlack</Username>
+      <ClientNumber>CB-005</ClientNumber>
+    </From>
+    <To>
+      <Username>DeniseWhite</Username>
+      <ClientNumber>DW-006</ClientNumber>
+    </To>
+    <AccountNumber>ACC-5678-1234</AccountNumber>
+    <Amount>75.00</Amount>
+    <Date>2023-12-13T10:21:31Z</Date>
+    <Status>ClosedByAdmin</Status>
+  </Transfer>
+</ExternalTransfers>
