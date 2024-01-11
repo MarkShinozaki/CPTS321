@@ -4,7 +4,7 @@
 
 
 > [!IMPORTANT]
-> Below are all the part that I did not get done in this project.
+> Below are all the parts that I did not get done in this project.
 
 ## Fixed/Finished Features
 
