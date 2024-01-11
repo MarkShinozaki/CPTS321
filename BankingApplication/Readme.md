@@ -6,6 +6,39 @@
 > [!IMPORTANT]
 > Below are all the part that I did not get done in this project.
 
+##Fixed/Finished Features
+
+GUI for all User interaction events
+Hashed passwords for all client accounts and admin passwords
+Admin Status
+Admin View
+Admin Removal of clients
+Admin Overview of clients (seeing all clients in system)
+Client Account Creation
+Client Dashboard (check status, transfers, sign out)
+Check status (Account status: shows checking account and savings account details, interest and interest gained)
+
+#Feature implmented with errors
+
+Internal transfers (within the same client account)
+external transfers, are made but not updated (Transfers made to other client accounts)
+client Undo Transfers
+Admin Undo Transfers (time is set but the
+Account status, tabluar form of seeing transactions, transaction are being made but just not shown in GUI
+Structural features
+Modular programming
+StyleCop package
+
+#Non-implemented features
+
+Admin Undo/Cancel transfers
+Client Cancel transfer
+
+
+> [!WARNING]
+> Below is all the points I lost on this assignment.
+
+
 Q1 comments: 
 No submission/Documentation (-5) 
 ( submitted late to Prof. via Email)
