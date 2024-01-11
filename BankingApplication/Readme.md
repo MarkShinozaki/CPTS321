@@ -1,5 +1,6 @@
+
 > [!NOTE]
-> I Started this project really late and had to rush to turn it in, obviously this is not an ideal situation and I would make sure to give yourself a lot of time to fully work through this Final Exam/Project .
+> I started this project really late and had to rush to turn it in, obviously this is not an ideal situation and I would make sure to give yourself a lot of time to fully work through this Final Exam/Project .
 
 
 > [!IMPORTANT]
