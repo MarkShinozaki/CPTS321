@@ -1,0 +1,23 @@
+> [!NOTE]
+> I Started this project really late and had to rush to turn it in, obviously this is not an ideal situation and I would make sure to give yourself a lot of time to fully work through this Final Exam/Project .
+
+
+> [!IMPORTANT]
+> Below are all the part that I did not get done in this project.
+
+Q1 comments: 
+No submission/Documentation (-5) 
+( submitted late to Prof. via Email)
+
+Q1: Factory Method is responsible creting objects, not interacting with xml data  (-1)
+
+Q2: comments: NEW COMMENTS: 
+Version Control: Implementation committed before tests, all code in one commit (-3) 
+
+Design: WinForms are defined within the class library, forms are instantiating classes that should be privae and managed by engine class, not modular, Hardcoded values for transaction (in Transaction.cs in the Transaction Method, etc.) no use of events, does not adhere to patterns in design document (-6) 
+
+Quality of Code: 
+
+Forms are mixed with logic class classes, actions are hardcoded into the forms, multiple forms are generated for a simple display, not using events for updating UI (-3),
+
+Tests: One one test that is not informative (-2.5)
