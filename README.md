@@ -1,6 +1,6 @@
 # CPTS321 - WASHINGTON STATE UNIVERISTY 
 ## C# - Software Engineering Principles
-***
+
 # Course Syllabus 
 
 Spring 2023 schedule: MWF 12:10pm - 1:00pm
