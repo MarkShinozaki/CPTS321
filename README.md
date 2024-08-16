@@ -179,6 +179,8 @@
 ### ***[UML - Class Diagrams, Sequence/Communication Diagrams](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w14.3-UML%20Presentation.pdf)***
 
 ### ***[SOLID Principles Presentation(myGroup)](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/BonusPresentationMaterial(SOLID-PRINCIPLES))***
+  - This document provides an overview of the SOLID principles in object-oriented programming, which are essential guidelines for creating maintainable and scalable software. The principles include Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion. Each principle is explained with visual examples, coding demonstrations, and real-world scenarios to illustrate how they can be applied to improve software design.
+
 
 ***
 ## Week 15
@@ -187,20 +189,20 @@
 #### - Design Anti-Patterns (AP).
 
 ### ***[Cpts321 - Design Patterns](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w15.1-DP-Presentation-solutions.pdf)***
+  - This presentation introduces the concept of design patterns in software development, as popularized by the Gang of Four. It covers the three main categories of design patterns: Creational, Structural, and Behavioral, with detailed explanations and examples for patterns like Singleton, Composite, and Strategy. The document emphasizes the practical application of these patterns to solve common design problems in object-oriented programming​.
 
 ### ***[w15.3-AntiPatterns](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w15.3-AntiPatterns.pdf)***
-
+  - This document discusses AntiPatterns, which are common responses to recurring problems that are counterproductive. It provides historical context and examples of various AntiPatterns, such as Spaghetti Code, God Object, and Stovepipe System. The document also offers solutions and refactoring strategies to address these issues, aiming to guide developers away from poor design practices and towards better coding standards​.
 
 ***
 ## Week 16
 #### - Disposal and Garbage Collection, Mocking, Debugging.
 
 ### ***[w16.1-GC-cpts321-garbagecollection](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w16.1-GC-cpts321-garbagecollection-main.zip)***
-
-#### ***[w16.1-GC](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w16.1-GC.pdf)***
+  - This document explains the concepts of garbage collection and memory management in C#. It covers how the .NET runtime manages memory using a generational garbage collector, the conditions that trigger garbage collection, and the phases involved in the process. The document also discusses related topics like static variables, WPF bindings, and disposable objects, providing insights into optimizing memory usage in C# applications.
 
 ### ***[w16.3-Debugging-Presentation](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/LectureMaterial/w16.3-Debugging-Presentation.pdf)***
-
+  - This presentation focuses on debugging techniques in software development. It covers the basics of using debuggers, such as setting breakpoints, stepping through code, and inspecting variables. Advanced topics include managing large loops, recursion, and using conditional breakpoints. The document also highlights the importance of understanding different types of errors—syntax, runtime, and logic—and how to effectively resolve them during the debugging process​. 
 
 
 
