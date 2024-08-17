@@ -220,209 +220,241 @@ Grading Breakdown:
 
 ## [Homework 5](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Homeworks/CPTS321-SoftwareEngineeringPrinciples-Homework-5)
 
-Homework 5: Overview
-Arithmetic Expression Trees (Part 1)
+### Homework 5: Overview
+#### Arithmetic Expression Trees (Part 1)
 
-Topics Covered:
-Expression parsing and evaluation
-Data structures (Expression Trees)
-Implementing a console application for testing
-Details of the Tasks:
-Create the ExpressionTree Class:
+#### Topics Covered:
+- Expression parsing and evaluation
+- Data structures (Expression Trees)
+- Implementing a console application for testing
 
-Develop the ExpressionTree class in your logic engine DLL. This class will parse and evaluate arithmetic expressions.
-Implement Expression Tree Functions:
+#### Details of the Tasks:
+##### 1. Create the ExpressionTree Class:
 
-Add methods to set variables, evaluate the expression, and construct the tree from a given string.
-Console Application:
+- Develop the `ExpressionTree` class in your logic engine DLL. This class will parse and evaluate arithmetic expressions.
 
-Create a console application to demo the functionality of the ExpressionTree. This includes a menu to enter expressions, set variable values, evaluate the expression, and quit.
-Parsing and Tree Construction:
+##### 2. Implement Expression Tree Functions:
 
-Support simplified expressions with a single type of operator (+, -, *, or /) without parentheses.
-Build a proper expression tree with nodes for constants, variables, and operators.
-Variable Support:
+- Add methods to set variables, evaluate the expression, and construct the tree from a given string.
 
-Implement variable handling in the ExpressionTree class, allowing users to set values dynamically.
-Version Control and Submission:
+##### 3. Console Application:
 
-Work on a branch called Branch_HW5 and submit the final tag as HW5.
-Follow TDD principles and ensure the code is well-documented.
-Grading Breakdown:
+- Create a console application to demo the functionality of the `ExpressionTree`. This includes a menu to enter expressions, set variable values, evaluate the expression, and quit.
 
-5 points for implementing correct functionality.
-1 point each for version control, code quality, identifier quality, comments, and test cases
+##### 4. Parsing and Tree Construction:
+
+- Support simplified expressions with a single type of operator (+, -, *, or /) without parentheses.
+- Build a proper expression tree with nodes for constants, variables, and operators.
+
+##### 5. Variable Support:
+
+- Implement variable handling in the `ExpressionTree` class, allowing users to set values dynamically.
+
+##### 6. Version Control and Submission:
+
+- Work on a branch called `Branch_HW5` and submit the final tag as `HW5`.
+- Follow TDD principles and ensure the code is well-documented.
+
+##### 7. Grading Breakdown:
+
+- 5 points for implementing correct functionality.
+- 1 point each for version control, code quality, identifier quality, comments, and test cases
 
 
 ---
 
 ## [Homework 6](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Homeworks/CPTS321-SoftwareEngineeringPrinciples-Homework-6)
 
-Homework 6: Overview
-Arithmetic Expression Trees (Part 2)
+### Homework 6: Overview
+#### Arithmetic Expression Trees (Part 2)
 
-Topics Covered:
-Advanced parsing and evaluation of arithmetic expressions
-Support for operator precedence and parentheses
-Implementation of a comprehensive expression tree
-Details of the Tasks:
-Operator and Parentheses Support:
+#### Topics Covered:
+- Advanced parsing and evaluation of arithmetic expressions
+- Support for operator precedence and parentheses
+- Implementation of a comprehensive expression tree
 
-Extend your expression tree to handle addition (+), subtraction (-), multiplication (*), and division (/) operators with correct precedence.
-Implement support for parentheses to ensure expressions are evaluated correctly based on grouping.
-Tree Construction:
+#### Details of the Tasks:
+##### 1. Operator and Parentheses Support:
 
-Ensure that the expression tree is built correctly using a Factory pattern as discussed in class. Each node should represent an operator or operand with proper relationships.
-Variable Support:
+- Extend your expression tree to handle addition (+), subtraction (-), multiplication (*), and division (/) operators with correct precedence.
+- Implement support for parentheses to ensure expressions are evaluated correctly based on grouping.
 
-Support variables in expressions, including multi-character variable names (e.g., A2).
-Store variables in a dictionary within the expression tree class, initializing them with a default value of 0.
-Version Control and Submission:
+##### 2. Tree Construction:
 
-Work in a branch named Branch_HW6 and tag the final version as HW6 before merging.
+- Ensure that the expression tree is built correctly using a Factory pattern as discussed in class. Each node should represent an operator or operand with proper relationships.
+
+##### 3. Variable Support:
+
+- Support variables in expressions, including multi-character variable names (e.g., A2).
+- Store variables in a dictionary within the expression tree class, initializing them with a default value of 0.
+
+##### 4. Version Control and Submission:
+- Work in a branch named `Branch_HW6` and tag the final version as `HW6` before merging.
 Submit the repository link with the tag via Canvas by the deadline.
-Grading Breakdown:
 
-5 points for correct functionality.
-1 point each for version control, code quality, identifier quality, comments, and test cases.
+#### 5. Grading Breakdown:
+
+- 5 points for correct functionality.
+- 1 point each for version control, code quality, identifier quality, comments, and test cases.
+  
 --- 
 
 ## [Homework 7](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Homeworks/CPTS321-SoftwareEngineeringPrinciples-Homework-7)
 
-Homework 7: Overview
-Spreadsheet Formula Evaluation
+### Homework 7: Overview
+#### Spreadsheet Formula Evaluation
 
-Topics Covered:
-Integration of expression trees with a spreadsheet application
-Evaluation of formulas within spreadsheet cells
-Efficient update propagation of dependent cells
-Details of the Tasks:
-Spreadsheet Application Updates:
+#### Topics Covered:
+- Integration of expression trees with a spreadsheet application
+- Evaluation of formulas within spreadsheet cells
+- Efficient update propagation of dependent cells
 
-Modify your spreadsheet application to use the expression tree for evaluating cell formulas.
-Display the formula in edit mode and the evaluated result otherwise.
-Expression Evaluation Integration:
+#### Details of the Tasks:
 
-Implement formula parsing in the spreadsheet so that when a cell’s formula is updated, the ExpressionTree class evaluates it.
-Handle variable names corresponding to cell references (e.g., A1, B2).
-Update Propagation:
+##### 1. Spreadsheet Application Updates:
 
-Ensure that when a cell’s value is updated, all dependent cells are recalculated. Use an efficient design such as event-driven updates to avoid recalculating the entire spreadsheet unnecessarily.
-Version Control and Submission:
+- Modify your spreadsheet application to use the expression tree for evaluating cell formulas.
+- Display the formula in edit mode and the evaluated result otherwise.
 
-Work in a branch named Branch_HW7 and tag the final version as HW7 before merging.
-Submit the repository link with the tag via Canvas by the deadline.
-Grading Breakdown:
+##### 2. Expression Evaluation Integration:
 
-5 points for correct functionality.
-1 point each for version control, code quality, identifier quality, comments, and test cases.
+- Implement formula parsing in the spreadsheet so that when a cell’s formula is updated, the `ExpressionTree` class evaluates it.
+- Handle variable names corresponding to cell references (e.g., `A1`, `B2`).
+
+##### 3. Update Propagation:
+
+- Ensure that when a cell’s value is updated, all dependent cells are recalculated. Use an efficient design such as event-driven updates to avoid recalculating the entire spreadsheet unnecessarily.
+
+##### 4. Version Control and Submission:
+
+- Work in a branch named Branch_HW7 and tag the final version as HW7 before merging.
+- Submit the repository link with the tag via Canvas by the deadline.
+
+##### 5. Grading Breakdown:
+
+- 5 points for correct functionality.
+- 1 point each for version control, code quality, identifier quality, comments, and test cases.
 
 
 ---
 
 ## [Homework 8](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Homeworks/CPTS321-SoftwareEngineeringPrinciples-Homework-8)
 
-Homework 8: Overview
-Undo/Redo System Implementation
+### Homework 8: Overview
+#### Undo/Redo System Implementation
 
-Topics Covered:
-Implementation of an undo/redo system
-GUI updates and event handling
-Advanced property management
-Details of the Tasks:
-Add Background Color Property to Cells:
+#### Topics Covered:
+- Implementation of an undo/redo system
+- GUI updates and event handling
+- Advanced property management
 
-In the logic engine, add a uint property named BGColor to the Cell class to store the background color. The default color should be white (0xFFFFFFFF).
-Ensure that changes to the BGColor property trigger the property-changed event, allowing the UI to update accordingly.
-Update the GUI:
+#### Details of the Tasks:
+##### 1. Add Background Color Property to Cells:
+- In the logic engine, add a `uint` property named` BGColor` to the `Cell` class to store the background color. The default color should be white (`0xFFFFFFFF`).
+- Ensure that changes to the BGColor property trigger the property-changed event, allowing the UI to update accordingly.
 
-Modify the event-handling code in the UI to respond to changes in cell background colors.
-For WinForms, use the DataGridViewCell.Style.BackColor property and the Color.FromArgb method to update cell colors.
-Add a button or menu option that allows users to change the background color of selected cells using a ColorDialog.
-Implement Undo/Redo System:
+##### 2. Update the GUI:
+- Modify the event-handling code in the UI to respond to changes in cell background colors.
+- For WinForms, use the `DataGridViewCell.Style.BackColor` property and the `Color.FromArgb` method to update cell colors.
+- Add a button or menu option that allows users to change the background color of selected cells using a ColorDialog.
 
-Implement a comprehensive undo/redo system for changes to cell text and background color.
-Ensure that every undo operation adds a corresponding redo operation to the redo stack.
-The undo and redo stacks should be private and managed through public methods like AddUndo.
-Provide menu options or buttons to perform undo and redo actions, disabling them when their respective stacks are empty.
-The design must be extendable to support new undo/redo functionality without altering existing code.
-Version Control and Submission:
+##### 3. Implement Undo/Redo System:
 
-Work in a branch called Branch_HW8 and tag the final version as HW8 before merging.
-Submit the repository link with the tag via Canvas by the deadline.
-Grading Breakdown:
+- Implement a comprehensive undo/redo system for changes to cell text and background color.
+- Ensure that every undo operation adds a corresponding redo operation to the redo stack.
+- The undo and redo stacks should be private and managed through public methods like `AddUndo`.
+- Provide menu options or buttons to perform undo and redo actions, disabling them when their respective stacks are empty.
+- The design must be extendable to support new undo/redo functionality without altering existing code.
 
-5 points for correct functionality.
-1 point each for version control, code quality, identifier quality, comments, and test cases
+##### 4. Version Control and Submission:
+
+- Work in a branch called `Branch_HW8` and tag the final version as `HW8` before merging.
+- Submit the repository link with the tag via Canvas by the deadline.
+
+##### 5. Grading Breakdown:
+
+- 5 points for correct functionality.
+- 1 point each for version control, code quality, identifier quality, comments, and test cases
 
 ---
 
 ## [Homework 9](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Homeworks/CPTS321-SoftwareEngineeringPrinciples-Homework-9)
 
 
-Homework 9: Overview
-Loading and Saving Spreadsheet Data
+### Homework 9: Overview
+#### Loading and Saving Spreadsheet Data
 
-Topics Covered:
-XML data handling and persistence
-Advanced spreadsheet functionality
-Integration of file I/O with the application
-Details of the Tasks:
-Add Load/Save Functionality:
+#### Topics Covered:
+- XML data handling and persistence
+- Advanced spreadsheet functionality
+- Integration of file I/O with the application
 
-Design an XML format for your spreadsheet data, ensuring it supports storing cell names, background colors, and text/formulas.
-Implement saving and loading methods for your spreadsheet application, which should work with streams.
-Ensure that only cells with non-default properties are saved.
-UI Integration:
+#### Details of the Tasks:
+##### 1. Add Load/Save Functionality:
+- Design an XML format for your spreadsheet data, ensuring it supports storing cell names, background colors, and text/formulas.
+- Implement saving and loading methods for your spreadsheet application, which should work with streams.
+- Ensure that only cells with non-default properties are saved.
 
-Add menu options for loading and saving files in the UI.
-Upon loading, clear all existing data, including undo/redo stacks, and properly evaluate any formulas in the loaded data.
-XML Handling:
+##### 2. UI Integration:
 
-Use .NET’s XML classes (e.g., XDocument, XmlDocument, XmlReader, XmlWriter) for reading and writing XML.
-Ensure the loading method can handle XML files with different tag orders or extra tags that were not saved by your application.
-Version Control and Submission:
+- Add menu options for loading and saving files in the UI.
+- Upon loading, clear all existing data, including undo/redo stacks, and properly evaluate any formulas in the loaded data.
 
-Work in a branch called Branch_HW9 and tag the final version as HW9 before merging.
-Submit the repository link with the tag via Canvas by the deadline.
-Grading Breakdown:
+##### 3. XML Handling:
 
-5 points for correct functionality.
-1 point each for version control, code quality, identifier quality, comments, and test cases
+- Use .NET’s XML classes (e.g., `XDocument`, `XmlDocument`, `XmlReader`, `XmlWriter`) for reading and writing XML.
+- Ensure the loading method can handle XML files with different tag orders or extra tags that were not saved by your application.
+
+##### 4. Version Control and Submission:
+
+- Work in a branch called `Branch_HW9` and tag the final version as `HW9` before merging.
+- Submit the repository link with the tag via Canvas by the deadline.
+
+##### Grading Breakdown:
+
+- 5 points for correct functionality.
+- 1 point each for version control, code quality, identifier quality, comments, and test cases
 
   
 ---
 
 ## [Homework 10](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Homeworks/CPTS321-SoftwareEngineeringPrinciples-Homework-10)
 
-Homework 10: Overview
-Handling Circular References in Formulas
+### Homework 10: Overview
+#### Handling Circular References in Formulas
 
-Topics Covered:
-Circular reference detection and handling
-Spreadsheet application enhancement
-Advanced formula evaluation and error management
-Details of the Tasks:
-Understand the Problem:
+#### Topics Covered:
+- Circular reference detection and handling
+- Spreadsheet application enhancement
+- Advanced formula evaluation and error management
 
-The assignment focuses on enhancing your spreadsheet application to detect and handle circular references in cell formulas. This requires refactoring your existing code to ensure the application can handle various problematic reference cases.
-Cases to Handle:
+#### Details of the Tasks:
+##### 1. Understand the Problem:
 
-Non-Existent References: The formula might reference a cell that doesn’t exist, such as Z12345 or an invalid name like Ba. Handle this by setting the cell value to an error message instead of treating the reference as 0.
-Self-Referencing: If a cell references itself in a formula (e.g., =A1 or =B2/(A1*A2)*7), the application should display an error string for that cell.
-Circular References: Detect circular references across multiple cells (e.g., A1 = B1, B1 = A1). This could be a direct circular reference or a more complex chain. The application must display an error for at least one cell in the chain and avoid infinite loops or stack overflows.
-Circular Reference Handling:
+- The assignment focuses on enhancing your spreadsheet application to detect and handle circular references in cell formulas. This requires refactoring your existing code to ensure the application can handle various problematic reference cases.
 
-The application should ensure that, when a circular reference is detected, it avoids infinite loops and updates all relevant cells correctly when the circular reference is resolved.
-Version Control and Submission:
+##### 2. Cases to Handle:
 
-Create and work in a branch called Branch_HW10.
-Merge the branch back to the master once completed and tag the final version as HW10.
-Submit the repository link with the tag via Canvas by the deadline.
-Grading Breakdown:
+- **Non-Existent References**: The formula might reference a cell that doesn’t exist, such as `Z12345` or an invalid name like `Ba`. Handle this by setting the cell value to an error message instead of treating the reference as `0`.
 
-5 points for implementing correct functionality.
-1 point each for version control, code quality, identifier quality, comments, and test cases.
+- **Self-Referencing**: If a cell references itself in a formula (e.g., `=A1` or `=B2/(A1*A2)*7)`, the application should display an error string for that cell.
+
+- **Circular References**: Detect circular references across multiple cells (e.g., `A1 = B1`, `B1 = A1`). This could be a direct circular reference or a more complex chain. The application must display an error for at least one cell in the chain and avoid infinite loops or stack overflows.
+
+##### 3. Circular Reference Handling:
+
+- The application should ensure that, when a circular reference is detected, it avoids infinite loops and updates all relevant cells correctly when the circular reference is resolved.
+
+##### 4. Version Control and Submission:
+
+- Create and work in a branch called `Branch_HW10`.
+- Merge the branch back to the master once completed and tag the final version as `HW10`.
+- Submit the repository link with the tag via Canvas by the deadline.
+
+##### 5. Grading Breakdown:
+
+- 5 points for implementing correct functionality.
+- 1 point each for version control, code quality, identifier quality, comments, and test cases.
 
 
   
