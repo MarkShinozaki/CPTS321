@@ -56,8 +56,27 @@
 
 ---
 
+### 3. [In-Class Exercises](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/In-Class-Exercises)
 
-### 3. [Homeworks](https://github.com/MarkShinozaki/CPTS317-Automata-FormalLanguages/tree/Homeworks)
+- #### ***[w1.1 - Activity 1](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/1.1%20Activity.png)***
+- #### ***[w1.3 - Activity 2](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/InClassExercises/1.3%20Activity)***
+- #### ***[w3.2 - Activity 3](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/InClassExercises/3.2%20Activity)***
+- #### ***[w4.3 - Activity 4](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/4.3%20Activity%20.png)***
+
+- #### ***[w.5.1.1 - Activity 5](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/5.1.1%20Activity%20.png)***
+
+- #### ***[w5.1.2 - Activity 6](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/5.1.2%20Activity.png)***
+
+- #### ***[w.7.2 - Activity 7](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/InClassExercises/7.2%20Unit%20Testing%20Activity)***
+
+- #### ***[w7.3 - Activity 8](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/7.3%20Activity.png)***
+
+- #### ***[w13.3 - Activity 9](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/InClassExercises/13.3%20Activity)***
+
+- #### ***[w14.3 - Activity 10](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/14.3%20Activity%20.png)***
+---
+
+### 4. [Homeworks](https://github.com/MarkShinozaki/CPTS317-Automata-FormalLanguages/tree/Homeworks)
 
 - #### [Homework 0](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Homeworks/CPTS321-SoftwareEngineeringPrinciples-Homework-0)
 - #### [Homework 1](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Homeworks/CPTS321-SoftwareEngineeringPrinciples-Homework-1)
@@ -75,17 +94,22 @@
 
 ---
 
-### 4. [Midterm-Final](https://github.com/MarkShinozaki/CPTS317-Automata-FormalLanguages/tree/Midterm-Final)
+### 5. [Final Projects](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Final-Projects)
 
-- #### [Midterm Exam](https://github.com/MarkShinozaki/CPTS317-Automata-FormalLanguages/tree/Midterm-Final/Midterm1Solutions)
-- #### [Final Exam](https://github.com/MarkShinozaki/CPTS317-Automata-FormalLanguages/tree/Midterm-Final/FinalExamSolution)
+- #### [Banking Application](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Final-Projects/BankingApplication)
+- #### [Store Management System](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Final-Projects/StoreManagmentSystem)
 
 --- 
 
+### 5. [Bonus Presentation](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Bonus-(SOLID-PRINCIPLES))
 
+- #### [Solid Principles Presentation](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Bonus-(SOLID-PRINCIPLES)/2023-Fall-SOLID%20Principles.pdf)
+
+
+--- 
 
 > [!IMPORTANT]
-> ***This Course is meant to introduce you to introduce students to Automata & Formal Languages.***
+> ***This Course is meant to introduce you to introduce students C#, Software Engineering Principles, Unit Testing and a tons more awesome and cool coding techniques  ***
 > ***The Work and Material in this Repo is meant to provide assistance, there is a possiblity that a few things here and there are not correct so please check all contents yourself***
 
 > [!CAUTION]
@@ -93,4 +117,4 @@
 
 ---
 
-### [Next Course - CPTS 321 - Software Engineering Principles ](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples)
+### [Next Course - CPTS 322 - Software Engineering Principles 1 ](https://github.com/MarkShinozaki/CPTS322-SoftwareEngineeringPrinciples1)
