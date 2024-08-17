@@ -11,6 +11,22 @@
 
 ---
 
+### 2. [Additional Resources](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/README.md)
+
+#### Testing 
+##### [Creating Tests](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/CptS%20321-NUnit-Creating%20and%20running%20tests.pdf)
+##### [Installing & Using: NUnit](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/CptS%20321-NUnit-How-to%20setup%20on%20VS%202019.pdf)
+
+#### Git/GitLab
+##### [Git-GitLab](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/Git-GitLab-Review.pdf)
+
+#### Time Complexity
+##### [Time Complexity Review](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/w1.3.2%20Brief%20time%20complexity%20review.pdf)
+
+#### StyleCop
+##### [StyleCop Guide](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/CptS%20321-StyleCop-How-to.pdf)
+---
+
 ### 2. [Slides-Lectures](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Lectures-Slides)
 
 #### Week 1
@@ -90,18 +106,19 @@
 - #### [Homework 9](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Homeworks/CPTS321-SoftwareEngineeringPrinciples-Homework-9)
 - #### [Homework 10](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Homeworks/CPTS321-SoftwareEngineeringPrinciples-Homework-10)
 
-
+---
+### 5. [Midterms-Samples](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Midterms-Samples/README.md)
 
 ---
 
-### 5. [Final Projects](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Final-Projects)
+### 6. [Final Projects](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Final-Projects)
 
 - #### [Banking Application](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Final-Projects/BankingApplication)
 - #### [Store Management System](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Final-Projects/StoreManagmentSystem)
 
 --- 
 
-### 5. [Bonus Presentation](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Bonus-(SOLID-PRINCIPLES))
+### 7. [Bonus Presentation](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Bonus-(SOLID-PRINCIPLES))
 
 - #### [Solid Principles Presentation](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Bonus-(SOLID-PRINCIPLES)/2023-Fall-SOLID%20Principles.pdf)
 
@@ -109,7 +126,7 @@
 --- 
 
 > [!IMPORTANT]
-> ***This Course is meant to introduce you to introduce students C#, Software Engineering Principles, Unit Testing and a tons more awesome and cool coding techniques  ***
+> ***This Course is meant to introduce you to introduce students to C#, Software Engineering Principles, Unit Testing and a tons more awesome and cool coding techniques***
 > ***The Work and Material in this Repo is meant to provide assistance, there is a possiblity that a few things here and there are not correct so please check all contents yourself***
 
 > [!CAUTION]
