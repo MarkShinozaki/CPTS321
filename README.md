@@ -358,34 +358,135 @@ public class ClassToDemoTestingNonPublicTest
 #### Summary:
 - This assignment will give you hands-on experience with testing non-public methods in a C# application using NUnit. You'll learn how to structure your code for testability, how to modify access levels for testing purposes, and how to leverage reflection to test private methods that would otherwise be inaccessible.
 
+---
 
+### ***[w7.3 - Activity 8](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/7.3%20Activity.png)***
 
+#### Description of the Assignment:
+- This assignment revolves around the design and analysis of a Monopoly game system. The focus is on understanding object-oriented design principles and applying them to decide the responsibilities of different objects and classes within the Monopoly game. You are required to answer conceptual questions that pertain to the creation, management, and control of various components within the game, such as the Square object, the game controller, and the dice.
 
+#### Steps to Complete the Assignment:
+
+##### 1. Analyze the Questions:
+
+- The assignment provides five questions that need to be answered, each focusing on different aspects of the Monopoly game system design.
+- The questions prompt you to think about responsibility allocation, object creation, and control flow in the context of a domain-driven design approach.
+
+##### 2. Provide Detailed Answers:
+
+- For each question, provide a detailed response that reflects your understanding of object-oriented design principles. Consider concepts like Single Responsibility Principle (SRP), Dependency Inversion, and Separation of Concerns when formulating your answers.
+
+#### Answering the Questions:
+
+##### 1. Who should create the `Square` object?
+
+- The `Square` objects could be created by a `Board` class or a SquareFactory. The `Board` class might handle the arrangement of `Square` objects on the game board, so it would make sense for it to also manage their creation. Alternatively, a dedicated factory class could be responsible for creating `Square` objects, especially if there are different types of squares (e.g., Property, Chance, Jail).
+
+##### 2. Who knows about a `Square` object, given a key?
+
+- The `Board` class or a `SquareRepository` could be responsible for mapping a key (such as an index or name) to a specific `Square` object. The `Board` class likely maintains a collection of all `Square` objects, so it can provide access to any specific square when given a key.
+
+##### 3. Who is the Controller for the `playGame` system operation?
+
+- The `GameController` class would likely be the controller for the `playGame` system operation. This class would coordinate the overall game flow, handle player turns, and enforce the rules of the game. It interacts with other classes such as `Player`, `Board`, and `Dice`.
+
+##### 4. How should the controller interact with the rest of the classes in the domain layer?
+
+- The `GameController` should use dependency injection to interact with other classes like `Board`, `Player`, and `Dice`. It should delegate responsibilities to these classes, ensuring that each class manages its own data and operations (e.g., Board handles square positions, `Player` handles player states). The controller should orchestrate actions without directly managing the internal workings of these objects.
+
+##### 5. Who should be responsible for handling the dice (rolling and summing the dice totals)?
+
+- A `Dice` class should handle rolling and summing the dice totals. This class encapsulates the logic for generating random dice rolls and calculating the total, ensuring that this responsibility is isolated from other parts of the system. The `GameController` would call this class to obtain dice results during a player’s turn.
+
+#### Summary:
+- This assignment requires you to think critically about object-oriented design, particularly in the context of a game system. By answering the provided questions, you will develop a clearer understanding of how to assign responsibilities within a system, how objects interact, and how to maintain a clean and modular architecture.
+
+---
+
+### ***[w13.3 - Activity 9](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/InClassExercises/13.3%20Activity)***
+
+#### Description of the Assignment:
+- In this assignment, you will create a WinForms application that demonstrates how to perform tasks on the main thread versus a new thread. The application includes two buttons: one to perform a long task on the same thread and another to perform the task on a new thread with a progress bar that tracks its progress. This assignment will help you understand threading in Windows Forms applications and how to update the UI safely from different threads.
+
+#### Steps to Complete the Assignment:
+
+##### 1. Create the User Interface:
+
+- Design a WinForm interface with two buttons:
+  - Button 1: "Do long task on same thread"
+  - Button 2: "Do long task on new thread with progress bar"
+- Add a `ProgressBar` control that will be visible only when the new thread is running.
+
+##### 2. Implement the `ThreadCompleted()` Method:
+- This method will reinitialize the UI after the task completes. Specifically, it should:
+  - Enable both buttons.
+  - Hide the `ProgressBar`.
+
+##### 3. Implement the `DoTask(TimeSpan howLong)` Method:
+
+- This method simulates a long-running task. It should:
+  - Wait for the duration specified by `howLong`.
+  - Notify the UI thread that the task is complete using the ThreadCompleted() method.
+  - Pass the ThreadCompleted method as a callback to ensure the UI is updated correctly after the task finishes.
+
+##### 4. Create the `btnTaskOnUIThread_Click` Event Handler:
+
+- This event handler will execute the long task on the UI thread. It should:
+  - Disable both buttons to prevent additional clicks.
+  - Make the `ProgressBar` visible (if used for the new thread task).
+  - Call the `DoTask` method with a 10-second duration.
+
+##### 5. Create the `btnTaskOnNewThread_Click` Event Handler:
+
+- This event handler will execute the long task on a new thread. It should:
+  - Disable both buttons.
+  - Make the ProgressBar visible.
+  - Create and start a new thread that runs the DoTask method with a 10-second duration.
+
+#### Summary:
+- This assignment teaches you how to manage long-running tasks in a WinForms application without freezing the UI. You will learn about the importance of using separate threads for resource-intensive operations and how to synchronize the UI updates with the main thread safely. The final application will clearly demonstrate the difference between performing a task on the UI thread versus a background thread, with the help of a progress bar.
 
 
 ---
 
-***[w7.3 - Activity 8](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/7.3%20Activity.png)***
+### ***[w14.3 - Activity 10](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/14.3%20Activity%20.png)***
 
 
----
+#### Description of the Assignment:
+- In this assignment, you are tasked with identifying and applying code refactoring techniques to improve the quality of an ExpressionTree coding demo. Refactoring is the process of restructuring existing code without changing its external behavior to enhance readability, reduce complexity, or improve performance. The assignment will guide you through reviewing refactoring techniques, applying them to a specific file, and documenting the changes.
 
-***[w13.3 - Activity 9](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/InClassExercises/13.3%20Activity)***
+#### Steps to Complete the Assignment:
+##### 1. Review Refactoring Techniques:
+- Browse through the list of refactorings defined by Martin Fowler in his book Refactoring: Improving the Design of Existing Code.
 
+- Also, review the refactoring techniques supported by your Integrated Development Environment (IDE). Most modern IDEs, like Visual Studio, offer built-in refactoring tools.
 
+##### 2. Analyze the Expression File:
 
+- Open the `Expression` file from the `ExpressionTree` coding demo.
+- Identify areas in the code where refactoring could improve its structure, maintainability, or efficiency. This could include applying techniques like Extract Method, Rename Variable, Simplify Conditional Expressions, Replace Magic Number with Symbolic Constant, and more.
+- Consider both refactorings you have already applied during previous work on this file and any new refactorings that you identify now.
 
----
+##### 3. Document the Refactorings:
 
-***[w14.3 - Activity 10](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/14.3%20Activity%20.png)***
+- As you apply refactorings, document them in the following format:
 
+```C#
+<Refactoring name>(<defined by>);<Old/New>: Details.
+```
 
+- For Example:
+  
+```C#
+Extract Method (Fowler); Old: Long method with multiple responsibilities. New: Separated the code into distinct methods for better readability.
+```
+##### 4. Identify and List Additional Refactorings:
 
+- Once you have completed the refactorings, go through the refactored code again to identify any further improvements that can be made.
+- List these additional refactorings using the same format as above.
 
-
-
-
-
+#### Summary:
+- This assignment helps you practice critical analysis and refactoring of code, a crucial skill in software development. By the end of this activity, you should have a cleaner, more maintainable version of the `ExpressionTree` code, along with a documented list of improvements made. This will not only improve your understanding of refactoring techniques but also contribute to your ability to maintain and improve codebases in future projects.
 
 
 
