@@ -165,7 +165,7 @@ public static int Add(int a, int b)
   - Consider how you might add features, such as allowing the user to append to an existing file or choose different file types, in future iterations.
 
 #### Example Pseudocode:
-```
+```C#
 static void Main(string[] args)
 {
     while (true)
@@ -203,26 +203,160 @@ static void Main(string[] args)
 }
 ```
 #### Summary:
-This assignment helps you practice file I/O operations in C# and encourages you to think about robust error handling and the principles of software design, such as designing for change. By following the steps outlined above, you will complete the task while ensuring the program is user-friendly and resilient to errors
+- This assignment helps you practice file I/O operations in C# and encourages you to think about robust error handling and the principles of software design, such as designing for change. By following the steps outlined above, you will complete the task while ensuring the program is user-friendly and resilient to errors
+
+---
+
+### ***[w.5.1.1 - Activity 5](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/5.1.1%20Activity%20.png)***
+
+### ***[w5.1.2 - Activity 6](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/5.1.2%20Activity.png)***
+
+#### Description of the Assignment:
+- This assignment is divided into two parts, each focusing on different C# programming concepts.
+
+##### 1. Transform Code into a Reusable Class Library:
+
+- You will take code from a previous exercise and refactor it into a reusable class library named StreamUtil.
+- After creating the class library, you will create a new project named DLLwithStreamsDemo that will use this library.
+- The primary goal is to understand how to package and reuse code across different projects by adding references to .dll files.
+
+##### 2. Property Changed Events Demo:
+
+- You will create a GUI-based C# application named `PropertyChangedEventsDemo` that demonstrates the use of property change notifications.
+- The task includes creating a simple GUI, defining a Person class, and setting up fields and properties that the GUI will eventually interact with.
+
+#### Steps to Complete the Assignment:
+
+#### Part 1: Creating a Reusable Class Library
+
+##### 1. Create the Class Library Project:
+- Open Visual Studio.
+- Create a new Class Library project within your solution and name it `StreamUtil`.
+- Move the code that you want to make reusable into this library. This will typically involve extracting common functionality that could be used across multiple projects.
+
+##### 2. Create the Demo Project:
+
+- In the same solution, create a new Console Application project named `DLLwithStreamsDemo`.
+- This project will demonstrate how to use the StreamUtil library.
+
+##### 3. Add the DLL Reference:
+
+- Build the `StreamUtil` project to generate the .dll file.
+- In the `DLLwithStreamsDemo` project, add a reference to the `StreamUtil.dll` file by browsing to its location.
+- You can also add the reference directly to the project using Visual Studio’s project reference options.
+
+##### 4. Write Code to Demonstrate the Library:
+
+- In the `DLLwithStreamsDemo` project, write code that utilizes the functionality provided by the `StreamUtil` library.
+- Run the project to ensure that everything works as expected.
+
+#### Part 2: Property Changed Events Demo
+
+##### 1. Create the Project:
+
+- In the same solution, create a new WPF or WinForms project named `PropertyChangedEventsDemo`.
+
+##### 2. Build the GUI:
+
+- Design a GUI that matches the example provided in the image.
+- Include text boxes or labels for `First Name` and `Last Name`, along with buttons to change the values.
+
+##### 3. Create the Person Class:
+- Define a Person class with the following:
+  - Private fields:  `firstName` and `lastName`.
+  - Public properties: `FirstName` and `LastName` that encapsulate these fields.
+
+##### 4. Link the GUI (Future Task):
+- Although not required immediately, the GUI will eventually need to interact with the Person class using property change notifications.
+
+#### Summary:
+- By completing these tasks, you will gain experience in modular programming, code reuse through class libraries, and GUI development with property change events. The first part emphasizes the importance of separating functionality into reusable components, while the second part introduces property change notifications, which are fundamental for reactive UI designs in C#.
+
+---
 
 
+### ***[w.7.2 - Activity 7](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/InClassExercises/7.2%20Unit%20Testing%20Activity)***
 
+#### Description of the Assignment:
+- This assignment is focused on testing non-public (internal and private) methods in a C# project using NUnit. The tasks involve creating a class with an internal method, setting up a unit test project, and writing test cases for the internal method. Additionally, you will explore how to access and test private methods using reflection.
 
+#### Steps to Complete the Assignment:
 
+#### Part 1: Testing Internal Methods
 
+##### 1. Create the Class with an Internal Method:
+- In your `HelloWorld` project, create a new class named `ClassToDemoTestingNonPublic`.
+- Define an internal static method `tripleThis` in this class. The method should take an integer as input and return its value tripled.
 
+```C#
+internal static int tripleThis(int aNumber)
+{
+    return aNumber * 3;
+}
+```
 
+##### 2. Set Up the NUnit Test Project:
 
+- If you haven't already, create a new NUnit test project named `HelloWorldTests` within the same solution as your `HelloWorld` project.
+- Ensure that `HelloWorldTests` has access to the `HelloWorld` project's internal entities by modifying the `AssemblyInfo.cs` file in the `HelloWorld` project:
 
+```C#
+[assembly: InternalsVisibleTo("HelloWorldTests")]
+```
 
+##### 3. Write Test Cases for the Internal Method:
 
+- In the `HelloWorldTests` project, write test cases to verify the behavior of the `tripleThis` method.
+- Consider different scenarios, such as positive numbers, zero, and negative numbers, when writing your test cases.
+- Example test cases:
 
+```C#
+[Test]
+public void TripleThis_ShouldReturnTripleValue()
+{
+    Assert.AreEqual(9, ClassToDemoTestingNonPublic.tripleThis(3));
+    Assert.AreEqual(0, ClassToDemoTestingNonPublic.tripleThis(0));
+    Assert.AreEqual(-15, ClassToDemoTestingNonPublic.tripleThis(-5));
+}
+```
 
+##### 4. Determine Test Case Types and Number:
 
+- Consider edge cases such as:
+  - Large numbers (positive and negative).
+  - Special cases like `int.MaxValue` and `int.MinValue`.
+- You might need around 5 to 7 test cases to cover various scenarios comprehensively.
 
+#### Part 2: Testing Private Methods Using Reflection
 
+##### 1. Access Private Methods via Reflection:
+- Create a test class in `HelloWorldTests` to demonstrate how to access and test private methods using reflection.
+- Use the `GetMethod` method along with appropriate `BindingFlags` to retrieve the private method, and use `MethodBase.Invoke` to execute it.
 
+- Example code structure:
 
+```C#
+[TestFixture]
+public class ClassToDemoTestingNonPublicTest
+{
+    private MethodInfo GetMethod(string methodName)
+    {
+        var type = typeof(ClassToDemoTestingNonPublic);
+        return type.GetMethod(methodName, BindingFlags.NonPublic | BindingFlags.Static);
+    }
+
+    [Test]
+    public void TestPrivateMethod()
+    {
+        var methodInfo = GetMethod("privateInstanceMethod");
+        var result = methodInfo.Invoke(null, new object[] { 5 });
+        Assert.AreEqual(15, result); // Assuming the private method multiplies by 3
+    }
+}
+```
+
+#### Summary:
+- This assignment will give you hands-on experience with testing non-public methods in a C# application using NUnit. You'll learn how to structure your code for testability, how to modify access levels for testing purposes, and how to leverage reflection to test private methods that would otherwise be inaccessible.
 
 
 
@@ -231,16 +365,17 @@ This assignment helps you practice file I/O operations in C# and encourages you 
 
 ---
 
-
-***[w.5.1.1 - Activity 5](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/5.1.1%20Activity%20.png)***
-
-***[w5.1.2 - Activity 6](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/5.1.2%20Activity.png)***
-
-***[w.7.2 - Activity 7](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/InClassExercises/7.2%20Unit%20Testing%20Activity)***
-
 ***[w7.3 - Activity 8](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/7.3%20Activity.png)***
 
+
+---
+
 ***[w13.3 - Activity 9](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/InClassExercises/13.3%20Activity)***
+
+
+
+
+---
 
 ***[w14.3 - Activity 10](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/InClassExercises/14.3%20Activity%20.png)***
 
