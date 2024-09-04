@@ -107,7 +107,7 @@
 - #### [Homework 10](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Homeworks/CPTS321-SoftwareEngineeringPrinciples-Homework-10)
 
 ---
-### 5. [Midterms-Samples](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Midterms-Samples/README.md)
+### 5. [Midterms-Samples](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Midterms-Samples)
 
 ---
 
