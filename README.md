@@ -11,7 +11,7 @@
 
 ---
 
-### 2. [Additional Resources](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/README.md)
+### 2. [Additional Resources](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/tree/Additional-Resources)
 
 #### Testing 
 ##### [Creating Tests](https://github.com/MarkShinozaki/CPTS321-SoftwareEngineeringPrinciples/blob/Additional-Resources/CptS%20321-NUnit-Creating%20and%20running%20tests.pdf)
